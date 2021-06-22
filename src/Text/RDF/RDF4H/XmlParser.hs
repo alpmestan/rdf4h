@@ -467,7 +467,7 @@ xmlName str = go [] str
       else Nothing
     isValid c = isAlphaNum c
                 || '_' == c
-                -- || '-' == c
+                --  || '-' == c
                 || '.' == c
                 || ':' == c
 
